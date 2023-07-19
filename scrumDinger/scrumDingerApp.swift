@@ -1,17 +1,14 @@
-//
-//  scrumDingerApp.swift
-//  scrumDinger
-//
-//  Created by Murphy McQuet on 7/17/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 @main
-struct scrumDingerApp: App {
+struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            MeetingView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
